@@ -6,13 +6,13 @@ namespace CompilerCore
     {
         private readonly Dictionary<string,string> _patterns = new()
         {
-            //{"ComentarioLinea", @"//.*"},
+            {"ComentarioLinea", @"//.*"},
             {"ComentarioBloque", @"/\*.*?\*/"},
             {"Modificador", "\\b(public|private|protected|static|final)\\b"},
             {"Clase", "\\bclass\\b"},
-            { "Atributo", @"\[(key|not null|unique|foreign\s+[a-zA-Z_]+\s*\(\s*[a-zA-Z_]+\s*\))\]" },
+            {"Atributo", @"\[(key|not null|unique|foreign\s+[a-zA-Z_]+\s*\(\s*[a-zA-Z_]+\s*\))\]" },
             {"Tipo", "\\b(int|long|float|double|boolean|char|String)\\b"},
-            //{"Id", "\\b_?[a-zA-Z][a-zA-Z0-9_]*\\b"},
+            {"Id", "\\b_?[a-zA-Z][a-zA-Z0-9_]*\\b"},
             {"LlaveAbre", "\\{"},
             {"LlaveCierra","\\}"},
             {"Fin", ";"}
@@ -59,13 +59,6 @@ namespace CompilerCore
 
         private string GetToken(string value)
         {
-            // 1. Autómatas personalizados
-            if (Automata.IsComentarioLinea(value)) return "ComentarioLinea";
-            if (Automata.EsId(value)) return "Id";
-            //if (Automata.IsEntero(value)) return "Entero";
-            //if (Automata.IsReal(value)) return "Real";
-
-            // 2. Regex como fallback
             foreach(var kv in _patterns)
                 if(Regex.IsMatch(value, "^"+kv.Value+"$")) return kv.Key;
             return "Desconocido";

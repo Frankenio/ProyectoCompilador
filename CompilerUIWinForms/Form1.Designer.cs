@@ -58,7 +58,7 @@ namespace CompilerUIWinForms
             fctb = new FastColoredTextBoxNS.FastColoredTextBox
             {
                 Dock = DockStyle.Fill,
-                Language = FastColoredTextBoxNS.Language.Custom,
+                Language = FastColoredTextBoxNS.Language.CSharp,
                 Font = new System.Drawing.Font("Consolas", 10F),
                 ShowLineNumbers = true,
                 BackColor = Color.White

@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="144.5" cy="307.5" rx="30" ry="30"/>
+	<text x="134.5" y="313.5" font-family="Times New Roman" font-size="20">q0</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="384.5" cy="307.5" rx="30" ry="30"/>
+	<text x="374.5" y="313.5" font-family="Times New Roman" font-size="20">q2</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="265.5" cy="307.5" rx="30" ry="30"/>
+	<text x="255.5" y="313.5" font-family="Times New Roman" font-size="20">q1</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="574.5" cy="307.5" rx="30" ry="30"/>
+	<text x="564.5" y="313.5" font-family="Times New Roman" font-size="20">q3</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="574.5" cy="307.5" rx="24" ry="24"/>
+	<polygon stroke="black" stroke-width="1" points="57.5,307.5 114.5,307.5"/>
+	<polygon fill="black" stroke-width="1" points="114.5,307.5 106.5,302.5 106.5,312.5"/>
+	<polygon stroke="black" stroke-width="1" points="174.5,307.5 235.5,307.5"/>
+	<polygon fill="black" stroke-width="1" points="235.5,307.5 227.5,302.5 227.5,312.5"/>
+	<text x="202.5" y="328.5" font-family="Times New Roman" font-size="20">/</text>
+	<polygon stroke="black" stroke-width="1" points="295.5,307.5 354.5,307.5"/>
+	<polygon fill="black" stroke-width="1" points="354.5,307.5 346.5,302.5 346.5,312.5"/>
+	<text x="322.5" y="328.5" font-family="Times New Roman" font-size="20">/</text>
+	<polygon stroke="black" stroke-width="1" points="414.5,307.5 544.5,307.5"/>
+	<polygon fill="black" stroke-width="1" points="544.5,307.5 536.5,302.5 536.5,312.5"/>
+	<text x="461.5" y="328.5" font-family="Times New Roman" font-size="20">todo</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 575.722,277.642 A 22.5,22.5 0 1 1 598.942,290.308"/>
+	<text x="611.5" y="239.5" font-family="Times New Roman" font-size="20">todo</text>
+	<polygon fill="black" stroke-width="1" points="598.942,290.308 608.313,291.395 604.026,282.361"/>
+</svg>

@@ -4,7 +4,8 @@ namespace CompilerCore
     {
         public static bool EsId(string source)
         {
-            if (string.IsNullOrEmpty(source)) return false;
+            if (string.IsNullOrEmpty(source))
+                return false;
 
             StatusEnum state = StatusEnum.q0;
 
@@ -44,7 +45,7 @@ namespace CompilerCore
                 }
             }
 
-            // Aceptamos si termina en q2 o q3 (porque ya se pasó por la letra obligatoria)
+            // Aceptamos si terminamos en q2 (solo letra) o q3 (resto de identificador)
             return state == StatusEnum.q2 || state == StatusEnum.q3;
         }
 

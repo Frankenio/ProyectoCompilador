@@ -71,7 +71,7 @@ ehthumbs.db
 # Archivos específicos a ignorar según tu solicitud
 ##################
 *.sql
-*.java
+*.png
 *.db
 
 ##################
