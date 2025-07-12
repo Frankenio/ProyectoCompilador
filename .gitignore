@@ -1,0 +1,88 @@
+#####################
+# Visual Studio Code
+#####################
+.vscode/
+*.code-workspace
+
+##################
+# Build artifacts
+##################
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+##################
+# User-specific
+##################
+#*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+##################
+# NuGet
+##################
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+##################
+# Logs & cache
+##################
+*.log
+*.tmp
+*.temp
+*.bak
+
+##################
+# Test results
+##################
+TestResults/
+*.trx
+
+##################
+# OS-specific
+##################
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+# Mac
+.DS_Store
+# Linux
+*.swp
+*.swo
+
+##################
+# Compiled sources
+##################
+*.dll
+*.exe
+*.app
+*.out
+*.so
+*.lib
+*.a
+
+##################
+# Archivos específicos a ignorar según tu solicitud
+##################
+*.sql
+*.java
+*.db
+
+##################
+# Java (por si abres con Eclipse o compilas algo desde los `.java`)
+##################
+*.class
+*.jar
+*.iml
+.idea/
+
+##################
+# EditorConfig/IDE cache
+##################
+*.vs/

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompilerCore\CompilerCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastColoredTextBox.Net6" Version="1.0.0" />
+    <PackageReference Include="Scintilla.NET" Version="5.3.2.9" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
